@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+/* Navbar */
+header {
+    background: #222;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #00adb5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* Home */
+.home {
+    height: 100vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home span {
+    color: #FFFFFF;   /* or white if you prefer */
+    background: none;
+    padding: 0;
+}
+
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about, .skills, .projects, .contact {
+    background: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Skills */
+.skill-box span {
+    display: inline-block;
+    background: #00adb5;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #eee;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #00adb5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
